@@ -41,7 +41,7 @@ function init() {
                         cunchu1 += ' <i></i>';
                         nn++;
                     } else {
-                        cunchu1 += ' <i></i><br>';
+                        cunchu1 += ' <i></i><br><br>';
                         nn++;
                     }
 
