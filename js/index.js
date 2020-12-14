@@ -21,6 +21,9 @@ function init() {
     var open = document.querySelector('.open');
     open.style.opacity = "0";
     open.remove()
+    var mus = document.getElementsByClassName('mus')[0];
+    mus.play()
+
 
     var autoimg = $('.autoimg');
     autoimg.style.opacity = "1";
