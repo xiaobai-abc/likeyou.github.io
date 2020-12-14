@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我喜欢你❤️</title>
+    <link rel="stylesheet" href="./css/index1.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div class="box">
+        <div class="tu">
+            <img class="imga" src="./images/2.jpg" alt="">
+        </div>
+        <div class="open" onclick="init()"></div>
+    </div>
+    <div class="autoimg">
+        <img src="./images/cc.png" alt="" width="245px">
+        <div class="wenzi1">
+
+            <span></span> <i></i>
+        </div>
+    </div>
+    <div class="lasty">
+        <span></span> <i class="teshu" style="display: none;"></i>
+    </div>
+    <div class="music">
+        <audio class="mus" loop autoplay src="123.mp3">
+            你的浏览太垃圾了听不到音乐
+        </audio>
+        <script>
+            var mus = document.getElementsByClassName('mus')[0];
+            setTimeout(function () {
+                mus.paly()
+                mus.loop
+            }, 1000)
+            document.addEventListener('WeixinJSBridgeReady', function () {
+                mus.paly()
+                mus.loop;
+            })
+        </script>
+        <img src="./images/111.png" alt="" width="50px" height="50px">
+
+    </div>
+    <script>
+        var img = document.getElementsByClassName('imga')[0];
+        img.width = document.documentElement.clientWidth;
+        img.height = document.documentElement.clientHeight;
+    </script>
+    <canvas id="canvas_is" style="opacity: 0.3;"></canvas>
+
+    <script src="./js/canvas.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
