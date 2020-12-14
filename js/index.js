@@ -68,7 +68,7 @@ function init() {
                 return
             }
             p.innerHTML = cunchu1;
-        }, 50)
+        }, 150)
     }
 
 
@@ -97,7 +97,7 @@ function init() {
                     }
                     p2.innerHTML = cunchu2;
                 }
-            }, 50)
+            }, 150)
         }
     }
 
