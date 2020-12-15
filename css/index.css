@@ -93,11 +93,13 @@ div.music img{
 
 .autoimg{
     position: absolute;
+    top: 0;
     left: 50%;
     margin-left: -132px;
     margin-top: 50px;
     z-index:4;
    transition: all 2s;
+   /* border: 1px solid red; */
    /* display: none; */
    opacity: 0;
 }
@@ -109,6 +111,8 @@ div.music img{
      width: 325px;
      padding: 10px 0;
      margin-left: -33px;
+     max-height: 390px;
+     overflow-y: scroll;
 }
 .autoimg .wenzi1 i{
     display: inline-block;
@@ -131,6 +135,7 @@ div.music img{
     width: 90%;
     /* height: 100%; */
     padding: 60px 20px;
+    padding-bottom: 0;
     text-align: left;
     background-color: transparent;
 
